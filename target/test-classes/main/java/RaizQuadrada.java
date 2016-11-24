@@ -7,7 +7,8 @@ public class RaizQuadrada {
 	}
 
 	public double sqrt(double valor) {
-		return Math.sqrt(valor);
+		if(valor > 0.0) return Math.sqrt(valor);
+		else return 0;
 	}
 
 }
